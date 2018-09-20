@@ -1,0 +1,89 @@
+Lecture 9/19/18
+
+SQL Examples
+
+# Select every row & column from a table
+
+SELECT *
+FROM table;
+
+# Select unique values from a column
+
+SELECT DISTINCT role
+FROM roles;
+
+# Determine number of rows in table
+
+SELECT COUNT(*)
+FROM people;
+
+# Select rows based on condition
+
+SELECT title
+FROM films
+WHERE (release_year = 1994 OR release_year = 1995);
+
+# Select rows based on wildcard condition
+
+SELECT name
+FROM people
+WHERE name LIKE "B%"; # selects everything that starts with B.
+
+# Select rows where a column is null
+
+SELECT name
+FROM people
+WHERE deathdate is NULL;
+
+
+Aggregate Functions
+
+SELECT SUM(duration)
+FROM films;
+
+SELECT AVG(budget)
+FROM films;
+
+SELECT MAX(budget)
+FROM films;
+
+
+Lets say you have a column or table with a super long name, you can do "Aliasing" to make the name smaller or more conveinent.
+
+SELECT MAX(budget) AS max_budget
+FROM films;
+
+SELECT column1, column2, column3
+FROM super_long_table_name AS s;
+
+
+
+Order by clause
+
+SELECT title
+FROM films
+ORDER BY release_year DESC;
+
+
+Group by clause
+
+# will return column sex and the count of male and female
+SELECT sex, count(*)
+FROM employees
+GROUP BY sex; 
+
+
+Having Clause
+Can't use the WHERE clause with aggregate functions, thus the example below
+
+SELECT release_year
+FROM films
+GROUP BY release_year
+WHERE COUNT(title) > 10;
+
+Needs to be turned into
+
+SELECT release_year
+FROM films
+GROUP BY release_year
+HAVING COUNT(title) > 10;

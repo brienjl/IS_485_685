@@ -1,0 +1,172 @@
+Exam 1 Review
+
+MULTIPLE CHOICE
+1) What is the most common way to import numpy?
+A) import numpy as np
+B) from numpy import np
+C) import numpy as nmp
+D) from sklearn import *
+
+2) What is the most common graphing package in Python?
+A) Seaborn
+B) Matplotlib
+C) Plot
+D) ggplot2
+
+3) 
+Script
+z = "evacuation"
+print(z._______("a", "+"))
+
+Output
+ev+cu+tion
+
+A) swap
+B) replace
+C) edit
+D) alter
+
+
+4)
+SCRIPT
+# Print the number of occurences of the letter "a" in z
+z = "amalgam"
+print(z)
+print(z.______)
+
+OUTPUT
+3
+
+A) count("a")
+B) group("a")
+C) counting("a")
+D) order("a")
+
+5)
+SCRIPT
+import numpy as np
+z = np.array([[5, 1, 6], 
+              [4, 7, 3]])
+print(z[0:, :2])
+
+A) [[5 1]
+    [4 7]]
+
+B) [[6]
+    [3]]
+ 
+C) [[4 7]]
+
+6)
+import numpy as np
+m = np.array([4, 2, 6])
+n = np.array([1, 2, 1])
+print(m + n)
+
+A) [3 0 5]
+B) [4 4 6]
+C) [5 4 7]
+
+7) Which command generates a valid Python list?
+
+A) x = [, 2, 5, 7]
+B) x = [2. 4. 6.0 + 2]
+C) x = ["A", "B" * 2, ,"C"]
+D) x = ["A", "B" * 2, "C"]
+
+8) Given a dataframe, df, what will df[:,2] return?
+A) All rows and the third column
+B) All rows and the second column
+C) All columns and the third row
+D) All columns and second row
+
+9) Given path '/Users/kevin/file.csv', how would you read in this CSV to a dataframe?
+
+A) read_csv('/Users/kevin/file.csv')
+B) pd.read_csv('/Users/kevin/file.csv')
+C) pd.csv('/Users/kevin/file.csv')
+D) pd.read_csv(/Users/kevin/file.csv)
+
+10) A Dictionary is made up of what kind of pairs?
+A) key, value
+B) numeric, value
+C) string, number
+D) key, string
+
+11) Python is an Object Oriented Language.
+A) True
+B) False
+
+12) What function/method returns the first 5 rows of a dataframe, df?
+A) df.rows(5)
+B) head(df)
+C) rows(df, 5)
+D) df.head()
+
+13) The while loop below is an infinite loop.
+A) True
+B) False
+
+x = 0
+while x < 5:
+    print('less than 5')
+    x += 1
+    
+14) How do I determine the current status of my git respository?
+A) git status
+B) git checkout
+C) git branch
+D) git ls
+
+15) How do I view all documents within my working directory in Linux (Bash) shell?
+A) view
+B) dir
+C) ls
+D) check
+
+16) How does Python search in Scope?
+A) global -> local -> built-in
+B) local -> global -> enclosing -> built-in
+C) local -> enclosing -> global -> built-in
+D) local -> global
+
+
+FREE RESPONSE
+)
+Script
+foo = [6.5, "A", "B", "Thu", -7]
+foo[1:3] = _________
+print(foo)
+
+Output
+[6.5, 'Sun', 'Mon', 'Thu', -7]
+
+
+) What will the function call return?
+
+def random_function(x,y):
+    z =  x + y
+    return z
+
+random_function(5,6)
+
+
+) What value will be returned?
+
+x = 15
+if x > 10:
+    print('first')
+else:
+    print('second')
+    
+) What will be returned?
+
+some_list = [1, 2, 6, 8]
+
+for i in some_list:
+    print(i+2)
+
+
+
+
+
