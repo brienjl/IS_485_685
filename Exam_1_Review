@@ -74,6 +74,62 @@ B) x = [2. 4. 6.0 + 2]
 C) x = ["A", "B" * 2, ,"C"]
 D) x = ["A", "B" * 2, "C"]
 
+8) Given a dataframe, df, what will df[:,2] return?
+A) All rows and the third column
+B) All rows and the second column
+C) All columns and the third row
+D) All columns and second row
+
+9) Given path '/Users/kevin/file.csv', how would you read in this CSV to a dataframe?
+
+A) read_csv('/Users/kevin/file.csv')
+B) pd.read_csv('/Users/kevin/file.csv')
+C) pd.csv('/Users/kevin/file.csv')
+D) pd.read_csv(/Users/kevin/file.csv)
+
+10) A Dictionary is made up of what kind of pairs?
+A) key, value
+B) numeric, value
+C) string, number
+D) key, string
+
+11) Python is an Object Oriented Language.
+A) True
+B) False
+
+12) What function/method returns the first 5 rows of a dataframe, df?
+A) df.rows(5)
+B) head(df)
+C) rows(df, 5)
+D) df.head()
+
+13) The while loop below is an infinite loop.
+A) True
+B) False
+
+x = 0
+while x < 5:
+    print('less than 5')
+    x += 1
+    
+14) How do I determine the current status of my git respository?
+A) git status
+B) git checkout
+C) git branch
+D) git ls
+
+15) How do I view all documents within my working directory in Linux (Bash) shell?
+A) view
+B) dir
+C) ls
+D) check
+
+16) How does Python search in Scope?
+A) global -> local -> built-in
+B) local -> global -> enclosing -> built-in
+C) local -> enclosing -> global -> built-in
+D) local -> global
+
 
 FREE RESPONSE
 )
@@ -84,6 +140,33 @@ print(foo)
 
 Output
 [6.5, 'Sun', 'Mon', 'Thu', -7]
+
+
+) What will the function call return?
+
+def random_function(x,y):
+    z =  x + y
+    return z
+
+random_function(5,6)
+
+
+) What value will be returned?
+
+x = 15
+if x > 10:
+    print('first')
+else:
+    print('second')
+    
+) What will be returned?
+
+some_list = [1, 2, 6, 8]
+
+for i in some_list:
+    print(i+2)
+
+
 
 
 
