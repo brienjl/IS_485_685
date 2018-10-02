@@ -165,6 +165,7 @@ some_list = [1, 2, 6, 8]
 
 for i in some_list:
     print(i+2)
+    
 
 
 
