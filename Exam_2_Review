@@ -40,7 +40,132 @@ B) [[(7, 1)], [(8, 1)], [(9, 1)], [(10, 1)]]
 C) [[(1, 7)], [(1, 8)], [(1, 9)], [(1, 10)]]
 D) None of the Above.
 
+4)
+
+Which of the following statements is true regarding a generator?
+A) It constructs a list and stores it in memory.
+B) It constructs a list but does not store it in memory.
+C) It constructs a tuple and stores it in memory.
+D) It does not construct a list.
+
+5)
+
+### Import the csv file located at the url "link_to_df" in small dataframe chunks of size 5 ###
+
+import pandas as pd
+link_to_df = 'https://goo.gl/BznzCb'
+df_chunks = pd.read_csv(link_to_df, _______)
+print(next(df_chunks))
+
+A) chunksize = 5
+B) size = 5
+C) width = 5
+D) numsize = 5
+
+6) 
+A List comprehension is faster than an analogous for loop in Python.
+
+A) True.
+B) False.
+
+
+7)
+What does the following return?
+
+result = [x**2 for x in range(5) if x % 2 == 0]
+print(result)
+
+A) [0, 4, 16]
+B) [0, 1, 2, 3, 4]
+C) [0, 2, 4]
+D) [0, 1, 4, 9, 16]
+
+
+8)
+What does the following return?
+
+gen = (num for num in range(10))
+print(next(gen))
+
+
+9) What does OLS stand for?
+
+A) Obviously Least Squares
+B) Object Language Sampling
+C) Ordinary Least Sampling
+D) Ordinary Least Squares
+
+
+10)
+What does OLS seek to minimize?
+
+A) Absolute Error
+B) Polynomial Error
+C) Nominal Error
+D) Residual Sum of Squares
+
+
+11)
+If my initial alpha is 0.05, and I get a p-value of 0.01 after doing a hypothesis test, what can I say?
+
+A) I can reject the null hypothesis in favor of the alternative hypothesis.
+B) Nothing, it's not conclusive.
+C) I accept my null hypothesis.
+D) I fail to reject my null hypothesis.
+
+
+
+12)
+Someone has a tinder profile with one profile picture and gets 3 matches in a week. A week later this person decides to change to a different profile picture to see if they can get more matches. What type of test are they performing?
+
+A) A/B Test
+B) Strategic Test
+C) Dating Test
+D) Profile Test
+
+
 
 Free Response
 
+1)
 What is the difference between *args and **kwargs?
+
+
+
+2)
+What does the following print?
+
+a_list = [1,10,20]
+result = map(lambda x: x + 5, a_list)
+print(list(result))
+
+
+3) 
+What is an ECDF? Why is it unique?
+
+
+
+4)
+What are covariance and correlation? Which do we as humans prefer to deal with?
+
+
+
+
+5)
+You know the mean number of spam emails you get in a week is about 30. What is the probability that you you get 35 spam emails in a week?
+
+
+
+
+
+6)
+You flip a coin 10 times. What is the probability that you get exactly 6 heads?
+
+
+
+
+7)
+What is bootstrapping? Why is it useful?
+
+
+
