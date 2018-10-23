@@ -1,0 +1,46 @@
+Exam_2_Review
+
+
+1)
+
+OUTPUT
+
+Hello World!
+SCRIPT
+
+def ______
+
+    """Prints Hello World!"""
+    print('Hello World!')
+say_hello()
+
+A) hello()
+B) say_hello():
+C) say_hello()
+D) Hello_World():
+
+
+2)
+
+add_squares = (lambda x, y: x**2 + y**2)
+print(add_squares(3, 4))
+
+A) 35
+B) 20
+C) 25
+D) 9
+
+
+3)
+
+[[(n, m) for m in range(1, 2)] for n in range(7, 9)]
+
+A) [[(7, 1)], [(8, 1)]]
+B) [[(7, 1)], [(8, 1)], [(9, 1)], [(10, 1)]]
+C) [[(1, 7)], [(1, 8)], [(1, 9)], [(1, 10)]]
+D) None of the Above.
+
+
+Free Response
+
+What is the difference between *args and **kwargs?
