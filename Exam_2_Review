@@ -114,11 +114,6 @@ What is an ECDF? Why is it unique?
 
 
 
-4)
-What are covariance and correlation? Which do we as humans prefer to deal with?
-
-
-
 
 5)
 You know the mean number of spam emails you get in a week is about 30. What is the probability that you you get 35 spam emails in a week?
@@ -135,6 +130,8 @@ You flip a coin 10 times. What is the probability that you get exactly 6 heads?
 
 7)
 What is bootstrapping? Why is it useful?
+
+
 
 
 
