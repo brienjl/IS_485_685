@@ -1,3 +1,7 @@
+Exam 3 Review
+Lectures 9-14
+
+
 1) What does OLS stand for?
 
 A) Obviously Least Squares
@@ -33,9 +37,156 @@ C) Dating Test
 D) Profile Test
 
 
+5) 
+Why is boostrapping useful?
+
+A) It helps us simulate multiple datasets from the already known data set by sampling with replacement.
+B) It isn't very useful.
+C) It allows us to only look at simulated means.
+D) None of the above.
+
+
+6) 
+When should you train-test-split your data?
+
+A) Only if its necessary.
+B) Only on classification problems.
+C) Only on regression problems.
+D) Always, doesn't matter the type of problem.
+
+
+7)
+After train-test-splitting, which data set do you fit to your model?
+
+A) X_test
+B) y_test
+C) y_train
+D) X_train
+
+
+8)
+After fitting a model, which data set do you predict on?
+
+A) X_test
+B) y_test
+C) y_train
+D) X_train
+
+
+9)
+Accuracy is always the best metric?
+
+A) True
+B) False
+
+
+10)
+After computing 2 AUC's one is .98, and the other is .93.
+
+A) Higher AUC is almost always better
+B) Lower AUC is almost always better
+C) Can't draw any conclusions.
+D) AUC isn't a valid metric ever.
+
+
+11)
+Scaling your data is almost always a good idea.
+
+A) True
+B) False
+
+
+12)
+Why would we regularize a model?
+
+A) The initial model is overfitting the data.
+B) The initial model is spot on.
+C) The initial model is underfitting the data.
+D) None of the above.
+
+
+13)
+Deep Neural Networks are always the best model.
+
+A) True
+B) False
+
+
+14)
+Why is unsupervised learning helpful?
+
+A) It does all the work for us.
+B) It allows us to find patterns in unlabeled data.
+C) It allows us to find patterns in labeled data.
+D) None of the above.
+
+
+15)
+After plotting the inertia curve while doing a K-Means clustering algorithm, you find that n = 8 clusters has lower inertia than n = 6 and n = 7. Does this guarantee 8 clusters is the best?
+
+A) Yes, because lowest inertia is the best.
+B) Yes, because 8 clusters always gives good performance.
+C) No, because adding more clusters almost always results in lower inertia.
+D) No, because even amounts of clusters are no good.
+
+
+16)
+What is the benefit of TruncatedSVD over PCA?
+
+A) It is allows the creation of CSR matrices, which means it handles sparse matrices better.
+B) It handles completely filled data sets better.
+C) It just processes eignenvectors better.
+D) It isn't, PCA usually does better.
+
+
+
 
 FREE RESPONSE
 
 
 1)
 What are covariance and correlation? Which do we as humans prefer to deal with?
+
+
+2)
+What is a permutation sample?
+
+
+3)
+What are the types of supervised learning?
+
+
+4)
+What are hyperparameters?
+
+
+5) 
+What is k-fold cross-validation and why is it useful?
+
+
+6)
+What is a ROC curve, what are its axes?
+
+
+7)
+What is pipelining, why is it useful?
+
+
+8)
+What is overfitting and underfitting? How could you correct for both?
+
+
+9)
+What is K-Means clustering, what type of machine learning does it fall under and why is it used?
+
+
+10)
+What does scaling your data do? Assume you're using StandardScaler() within sklearn.
+
+
+11) What is t-SNE, why would you use it?
+
+
+12) Why is PCA or NMF useful? What is the difference between PCA and NMF.
+
+
